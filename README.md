@@ -99,5 +99,7 @@ O laboratório proporcionou uma experiência prática valiosa na utilização da
 ## Referências:
 - http://learn.microsoft.com/en-us/azure/ai-services/language-service/
 - https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
+- ChatGPT (OpenAI)
+- Microsoft Copilot Studio
 
 # Gabriel Siqueira Lannes - Junho de 2025.
