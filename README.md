@@ -74,7 +74,24 @@ Durante a prática, alguns dos principais insights adquiridos foram:
    
    if result.reason == speechsdk.ResultReason.RecognizedSpeech:
        print("Texto reconhecido: {}".format(result.text))
-````
+```
+### 2. **Análise de Sentimento**
+   - Analisar o sentimento de um texto.
+
+   ```
+from azure.ai.textanalytics import TextAnalyticsClient
+from azure.core.credentials import AzureKeyCredential
+
+endpoint = "YOUR_ENDPOINT"
+key = "YOUR_KEY"
+
+client = TextAnalyticsClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+
+document = ["Estou muito feliz com o serviço!"]
+sentiment_result = client.analyze_sentiment(documents=document)[0]
+
+print("Sentimento: {}".format(sentiment_result.sentiment))
+   ```
 
 ## Conclusão
 O laboratório proporcionou uma experiência prática valiosa na utilização das ferramentas Azure Speech Studio e Language Studio. Aprendemos a integrar a inteligência artificial em processos de análise de fala e linguagem natural, desenvolvendo soluções mais inteligentes e eficientes para diversas aplicações.
