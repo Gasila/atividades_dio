@@ -74,3 +74,13 @@ Durante a prática, alguns dos principais insights adquiridos foram:
    
    if result.reason == speechsdk.ResultReason.RecognizedSpeech:
        print("Texto reconhecido: {}".format(result.text))
+````
+
+## Conclusão
+O laboratório proporcionou uma experiência prática valiosa na utilização das ferramentas Azure Speech Studio e Language Studio. Aprendemos a integrar a inteligência artificial em processos de análise de fala e linguagem natural, desenvolvendo soluções mais inteligentes e eficientes para diversas aplicações.
+
+## Referências:
+http://learn.microsoft.com/en-us/azure/ai-services/language-service/
+https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
+
+# Gabriel Siqueira Lannes - Junho de 2025.
