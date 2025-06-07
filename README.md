@@ -63,7 +63,7 @@ Durante a prática, alguns dos principais insights adquiridos foram:
 ### 1. **Speech-to-Text**
    - Carregar um arquivo de áudio e convertê-lo para texto.
    
-   ```python
+   ```
    import azure.cognitiveservices.speech as speechsdk
    
    speech_config = speechsdk.SpeechConfig(subscription="YOUR_KEY", region="YOUR_REGION")
